@@ -17,9 +17,9 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
-
 }
+
+
 
 .mercury {
     height: 20px;
@@ -32,7 +32,6 @@ body {
     top: 42%;
     transform: translate(-50%, -50%);
     animation: orbit2 2s linear infinite;
-
 }
 
 @keyframes orbit2 {
@@ -43,7 +42,6 @@ body {
     to {
         transform: rotate(360deg)translateX(70px) rotate(-360deg);
     }
-
 }
 
 p {
@@ -52,7 +50,6 @@ p {
     position: absolute;
     left: -62px;
     top: -11px;
-
 }
 
 .mercury-outline,
@@ -72,10 +69,13 @@ p {
     transform: translate(-50%, -50%);
 }
 
+
 .mercury-outline {
     height: 140px;
     width: 140px;
 }
+
+
 
 .venus {
     height: 40px;
@@ -89,7 +89,6 @@ p {
     top: 42%;
     transform: translate(-50%, -50%);
     animation: orbit3 10s linear infinite;
-
 }
 
 @keyframes orbit3 {
@@ -100,13 +99,14 @@ p {
     to {
         transform: rotate(360deg)translateX(100px) rotate(-360deg);
     }
-
 }
 
 .venus-outline-1 {
     height: 200px;
     width: 200px;
 }
+
+
 
 .earth {
     height: 50px;
@@ -120,7 +120,6 @@ p {
     top: 43%;
     transform: translate(-50%, -50%);
     animation: orbit4 20s linear infinite;
-
 }
 
 @keyframes orbit4 {
@@ -131,7 +130,6 @@ p {
     to {
         transform: rotate(360deg)translateX(150px) rotate(-360deg);
     }
-
 }
 
 .earth-outline-1 {
@@ -159,7 +157,6 @@ p {
     left: 45%;
     top: 45%;
     animation: orbit5 3s linear infinite;
-
 }
 
 @keyframes orbit5 {
@@ -170,8 +167,9 @@ p {
     to {
         transform: rotate(360deg)translateX(33px) rotate(-360deg);
     }
-
 }
+
+
 
 .mars {
     height: 30px;
@@ -233,6 +231,37 @@ p {
 .jupiter-outline-1 {
     height: 430px;
     width: 430px;
+}
+
+.saturn {
+    height: 50px;
+    width: 50px;
+    background-image: url(images/saturnn.png);
+    background-size: 100%;
+    border-radius: 50%;
+    position: absolute;
+
+    left: 45%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    animation: orbit9 90s linear infinite;
+
+}
+
+@keyframes orbit9 {
+    from {
+        transform: rotate(0deg)translateX(250px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg)translateX(250px) rotate(-360deg);
+    }
+
+}
+
+.saturn-outline-1 {
+    height: 500px;
+    width: 500px;
 }
 
 
